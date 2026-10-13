@@ -1,0 +1,1689 @@
+PS C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles> cd "C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles"
+PS C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles> dotnet --info
+>> dotnet restore .\send-strings.csproj
+>> dotnet build .\send-strings.csproj -c Release
+.NET SDK:
+ Version:   7.0.317
+ Commit:    9dcd7deb92
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.19045
+ OS Platform: Windows
+ RID:         win10-x64
+ Base Path:   C:\Program Files\dotnet\sdk\7.0.317\
+
+Host:
+  Version:      10.0.8
+  Architecture: x64
+  Commit:       94ea82652c
+
+.NET SDKs installed:
+  7.0.317 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 7.0.20 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 7.0.20 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.2 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 8.0.14 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 9.0.7 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 10.0.8 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 7.0.20 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 8.0.2 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 9.0.7 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+  Microsoft.WindowsDesktop.App 10.0.8 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  Not set
+
+global.json file:
+  Not found
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+MSBuild version 17.6.11+5eb99e6e9 for .NET
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Newtonsoft.Json". Check to make sure the assembly exists on disk. If th
+is reference is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compi
+les\send-strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Renci.SshNet". Check to make sure the assembly exists on disk. If this
+reference is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles
+\send-strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Serilog". Check to make sure the assembly exists on disk. If this refer
+ence is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\send
+-strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Npgsql". Check to make sure the assembly exists on disk. If this refere
+nce is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\send-
+strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Dapper". Check to make sure the assembly exists on disk. If this refere
+nce is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\send-
+strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Serilog.Sinks.File". Check to make sure the assembly exists on disk. If
+ this reference is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_co
+mpiles\send-strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Serilog.Exceptions". Check to make sure the assembly exists on disk. If
+ this reference is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_co
+mpiles\send-strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "DotNetEnv". Check to make sure the assembly exists on disk. If this ref
+erence is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\se
+nd-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Properties\AssemblyInfo.cs(8,12): warning SYSLIB0025: 'SuppressIldas
+mAttribute' is obsolete: 'SuppressIldasmAttribute has no effect in .NET 6.0+.' [C:\Users\Houssine\Desktop\APIO-SOURCE\s
+rc_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(8,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(9,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(7,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(8,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class215.cs(5,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class215.cs(6,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(8,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(9,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(7,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(8,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class85.cs(10,7): error CS0246: The type or namespace name 'Renci' c
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE\
+src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class85.cs(11,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(7,7): error CS0246: The type or namespace name 'Newtonsof
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(8,7): error CS0246: The type or namespace name 'Serilog'
+could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE
+\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(6,7): error CS0246: The type or namespace name 'Dapper'
+could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE
+\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(7,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(8,7): error CS0246: The type or namespace name 'Npgsql'
+could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE
+\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(9,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(7,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(8,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass14.cs(6,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(8,7): error CS0246: The type or namespace name 'Newtonsof
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(9,7): error CS0246: The type or namespace name 'Serilog'
+could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE
+\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(4,7): error CS0246: The type or namespace name 'Dapper' c
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE\
+src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(5,7): error CS0246: The type or namespace name 'Newtonsof
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(6,7): error CS0246: The type or namespace name 'Npgsql' c
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE\
+src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass6.cs(8,7): error CS0246: The type or namespace name 'DotNetEnv
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass6.cs(9,7): error CS0246: The type or namespace name 'Serilog'
+could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE
+\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass6.cs(10,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass6.cs(11,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass7.cs(4,7): error CS0246: The type or namespace name 'Dapper' c
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE\
+src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass7.cs(5,7): error CS0246: The type or namespace name 'Newtonsof
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass7.cs(6,7): error CS0246: The type or namespace name 'Npgsql' c
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE\
+src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass8.cs(3,7): error CS0246: The type or namespace name 'Newtonsof
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass8.cs(19,34): error CS0246: The type or namespace name 'JToken'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1482,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1487,24): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1522,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1527,25): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1785,25): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class85.cs(89,10): error CS0246: The type or namespace name 'SftpCli
+ent' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1843,25): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1406,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1414,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(17,10): error CS0246: The type or namespace name 'JObject
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class85.cs(76,10): error CS0246: The type or namespace name 'SftpCli
+ent' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1755,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(50,49): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1760,24): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1785,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1790,25): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(80,49): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class85.cs(66,76): error CS0246: The type or namespace name 'SftpCli
+ent' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(2318,25): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(2502,25): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1655,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1663,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(17,10): error CS0246: The type or namespace name 'JObjec
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(198,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(210,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(50,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(53,49): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(296,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(301,24): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(71,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(356,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(361,25): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(239,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(253,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(17,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(67,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(217,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(229,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(49,10): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(54,26): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(366,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(375,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(353,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(159,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(356,49): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(162,49): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(389,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(201,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(489,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(501,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(491,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(494,49): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(385,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(409,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(518,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2374,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2379,24): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2419,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2424,25): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2444,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(602,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2449,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2454,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(605,49): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(538,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2514,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(550,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(629,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2276,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2290,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2298,19): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2300,19): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2302,19): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(871,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2322,19): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(922,26): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(717,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(722,26): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1031,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1034,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1058,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1136,10): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(5263,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1146,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1153,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(5132,19): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1390,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1396,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(956,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(270,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1023,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1614,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1617,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1641,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(330,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(357,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1382,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(363,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(369,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1364,10): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(423,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1767,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1770,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1794,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1897,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1904,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2167,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1616,10): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2170,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2194,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2276,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2276,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2279,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2279,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2282,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2282,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(75,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(78,49): error CS0246: The type or namespace name 'JObjec
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2285,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2285,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2291,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2291,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2297,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2297,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(874,26): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2337,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2343,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(144,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2578,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2581,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2605,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1236,26): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(569,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(572,49): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(656,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1869,26): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1980,22): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1980,36): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1989,22): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1989,36): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2001,35): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2001,13): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(867,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2019,35): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2019,13): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(876,26): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1149,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1155,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1522,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1528,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1795,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1798,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1882,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2146,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(177,53): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(195,47): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2210,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2213,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2297,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(942,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(947,24): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(972,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(977,25): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(1480,25): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(1665,25): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(859,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(867,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(17,10): error CS0246: The type or namespace name 'JObjec
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2508,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(44,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(47,49): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2517,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(65,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2827,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2830,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(194,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(206,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(239,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(263,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(287,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2914,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(299,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(496,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(571,26): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(789,10): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(822,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3130,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3133,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3199,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3623,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3629,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3904,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3910,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4260,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4263,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass14.cs(83,35): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass14.cs(176,37): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass14.cs(59,19): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4347,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4541,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4541,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4547,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4547,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4553,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4553,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4559,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4559,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4571,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4571,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4583,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4583,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4634,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4637,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4703,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(68,51): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(68,68): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(68,85): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(91,47): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(19,22): error CS0246: The type or namespace name 'JToken'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(22,22): error CS0246: The type or namespace name 'JToken'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(25,28): error CS0246: The type or namespace name 'JToken'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(31,28): error CS0246: The type or namespace name 'JToken'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass7.cs(76,47): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass7.cs(81,53): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+
+Build FAILED.
+
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Newtonsoft.Json". Check to make sure the assembly exists on disk. If th
+is reference is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compi
+les\send-strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Renci.SshNet". Check to make sure the assembly exists on disk. If this
+reference is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles
+\send-strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Serilog". Check to make sure the assembly exists on disk. If this refer
+ence is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\send
+-strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Npgsql". Check to make sure the assembly exists on disk. If this refere
+nce is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\send-
+strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Dapper". Check to make sure the assembly exists on disk. If this refere
+nce is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\send-
+strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Serilog.Sinks.File". Check to make sure the assembly exists on disk. If
+ this reference is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_co
+mpiles\send-strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "Serilog.Exceptions". Check to make sure the assembly exists on disk. If
+ this reference is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_co
+mpiles\send-strings.csproj]
+C:\Program Files\dotnet\sdk\7.0.317\Microsoft.Common.CurrentVersion.targets(2352,5): warning MSB3245: Could not resolve
+ this reference. Could not locate the assembly "DotNetEnv". Check to make sure the assembly exists on disk. If this ref
+erence is required by your code, you may get compilation errors. [C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\se
+nd-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Properties\AssemblyInfo.cs(8,12): warning SYSLIB0025: 'SuppressIldas
+mAttribute' is obsolete: 'SuppressIldasmAttribute has no effect in .NET 6.0+.' [C:\Users\Houssine\Desktop\APIO-SOURCE\s
+rc_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(8,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(9,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(7,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(8,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class215.cs(5,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class215.cs(6,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(8,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(9,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(7,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(8,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class85.cs(10,7): error CS0246: The type or namespace name 'Renci' c
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE\
+src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class85.cs(11,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(7,7): error CS0246: The type or namespace name 'Newtonsof
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(8,7): error CS0246: The type or namespace name 'Serilog'
+could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE
+\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(6,7): error CS0246: The type or namespace name 'Dapper'
+could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE
+\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(7,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(8,7): error CS0246: The type or namespace name 'Npgsql'
+could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE
+\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(9,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(7,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(8,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass14.cs(6,7): error CS0246: The type or namespace name 'Newtonso
+ft' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(8,7): error CS0246: The type or namespace name 'Newtonsof
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(9,7): error CS0246: The type or namespace name 'Serilog'
+could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE
+\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(4,7): error CS0246: The type or namespace name 'Dapper' c
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE\
+src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(5,7): error CS0246: The type or namespace name 'Newtonsof
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(6,7): error CS0246: The type or namespace name 'Npgsql' c
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE\
+src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass6.cs(8,7): error CS0246: The type or namespace name 'DotNetEnv
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass6.cs(9,7): error CS0246: The type or namespace name 'Serilog'
+could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE
+\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass6.cs(10,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass6.cs(11,7): error CS0246: The type or namespace name 'Serilog'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass7.cs(4,7): error CS0246: The type or namespace name 'Dapper' c
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE\
+src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass7.cs(5,7): error CS0246: The type or namespace name 'Newtonsof
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass7.cs(6,7): error CS0246: The type or namespace name 'Npgsql' c
+ould not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURCE\
+src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass8.cs(3,7): error CS0246: The type or namespace name 'Newtonsof
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass8.cs(19,34): error CS0246: The type or namespace name 'JToken'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1482,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1487,24): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1522,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1527,25): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1785,25): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class85.cs(89,10): error CS0246: The type or namespace name 'SftpCli
+ent' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1843,25): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1406,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1414,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(17,10): error CS0246: The type or namespace name 'JObject
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class85.cs(76,10): error CS0246: The type or namespace name 'SftpCli
+ent' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1755,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(50,49): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1760,24): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1785,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1790,25): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(80,49): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class85.cs(66,76): error CS0246: The type or namespace name 'SftpCli
+ent' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(2318,25): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(2502,25): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1655,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1663,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(17,10): error CS0246: The type or namespace name 'JObjec
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(198,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(210,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(50,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(53,49): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(296,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(301,24): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(71,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(356,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(361,25): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(239,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(253,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(17,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(67,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(217,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(229,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(49,10): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(54,26): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(366,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(375,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(353,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(159,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(356,49): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(162,49): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(389,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class306.cs(201,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(489,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(501,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(491,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(494,49): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(385,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(409,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(518,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2374,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2379,24): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2419,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2424,25): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2444,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(602,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2449,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2454,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(605,49): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(538,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2514,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(550,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(629,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2276,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2290,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2298,19): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2300,19): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2302,19): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(871,10): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2322,19): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(922,26): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(717,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(722,26): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1031,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1034,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1058,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1136,10): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(5263,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1146,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1153,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(5132,19): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1390,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1396,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(956,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(270,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1023,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1614,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1617,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1641,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(330,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(357,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass0.cs(1382,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(363,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(369,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1364,10): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(423,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1767,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1770,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1794,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1897,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(1904,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2167,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class180.cs(1616,10): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2170,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2194,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2276,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2276,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2279,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2279,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2282,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2282,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(75,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(78,49): error CS0246: The type or namespace name 'JObjec
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2285,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2285,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2291,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2291,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2297,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2297,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(874,26): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2337,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2343,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(144,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2578,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2581,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class102.cs(2605,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1236,26): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(569,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(572,49): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(656,49): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1869,26): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1980,22): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1980,36): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1989,22): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(1989,36): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2001,35): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2001,13): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(867,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2019,35): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass3.cs(2019,13): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(876,26): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1149,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1155,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1522,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1528,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1795,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1798,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(1882,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2146,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(177,53): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass11.cs(195,47): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2210,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2213,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2297,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(942,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(947,24): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(972,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(977,25): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(1480,25): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(1665,25): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(859,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(867,10): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(17,10): error CS0246: The type or namespace name 'JObjec
+t' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2508,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(44,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(47,49): error CS0246: The type or namespace name 'JToken
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2517,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(65,49): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2827,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2830,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(194,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(206,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(239,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(263,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(287,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(2914,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(299,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(496,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(571,26): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(789,10): error CS0246: The type or namespace name 'JObje
+ct' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass13.cs(822,10): error CS0246: The type or namespace name 'JToke
+n' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3130,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3133,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3199,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3623,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3629,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3904,10): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(3910,26): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4260,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4263,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass14.cs(83,35): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass14.cs(176,37): error CS0246: The type or namespace name 'JArra
+y' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOU
+RCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass14.cs(59,19): error CS0246: The type or namespace name 'JArray
+' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOUR
+CE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4347,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4541,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4541,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4547,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4547,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4553,22): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4553,36): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4559,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4559,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4571,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4571,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4583,35): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4583,13): error CS0246: The type or namespace name 'JTok
+en' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4634,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4637,49): error CS0246: The type or namespace name 'JObj
+ect' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-S
+OURCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\Class223.cs(4703,49): error CS0246: The type or namespace name 'JArr
+ay' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SO
+URCE\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(68,51): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(68,68): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(68,85): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(91,47): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(19,22): error CS0246: The type or namespace name 'JToken'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(22,22): error CS0246: The type or namespace name 'JToken'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(25,28): error CS0246: The type or namespace name 'JToken'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass5.cs(31,28): error CS0246: The type or namespace name 'JToken'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass7.cs(76,47): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles\GClass7.cs(81,53): error CS0246: The type or namespace name 'JArray'
+ could not be found (are you missing a using directive or an assembly reference?) [C:\Users\Houssine\Desktop\APIO-SOURC
+E\src_compiles\send-strings.csproj]
+    9 Warning(s)
+    259 Error(s)
+
+Time Elapsed 00:00:04.23
+PS C:\Users\Houssine\Desktop\APIO-SOURCE\src_compiles>
